@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.producto{
+  margin-top: 200px;
+}
+.productodos{
+  margin-top: 50px;
+}

@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.logosobrenosotros {
+  margin-top: 200px;
+  margin-left: 620px;
+  width: 300px;
+  height: 300px;
+}
+
+.titulosobrenosotros {
+  margin-top: 50px;
+  margin-left: 620px;
+}
+
+.parrafosobrenosotros {
+  margin-left: 300px;
+}
+
+.cuadrouno {
+  width: 800px;
+  height: 200px;
+  margin-left: 370px;
+  margin-top: 100px;
+}
+.cuadrodos {
+  width: 800px;
+  height: 200px;
+  margin-left: 370px;
+}
+.cuadrotres {
+  width: 800px;
+  height: 200px;
+  border-color: brown;
+  margin-left: 370px;
+}
