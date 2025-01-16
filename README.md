@@ -3,7 +3,7 @@
 Sitio web - Diseño de interiores
 Transforma tus espacios con estilo y funcionalidad
 
-En **Nido**, nos especializamos en crear ambientes únicos que reflejan tu personalidad y necesidades. Desde el diseño conceptual hasta la ejecución final, ofrecemos soluciones personalizadas que combinan estética, comodidad y creatividad. Ya sea que desees renovar tu hogar, oficina o cualquier otro espacio, nuestros productos y el equipo de diseñadores expertos está listo para hacer realidad tus ideas.
+Este proyecto **mäbello** consiste en un sitio web de venta de muebles que ofrece una experiencia de compra fácil y segura. Los usuarios podrán explorar una amplia variedad de muebles para el hogar y oficina, filtrando por estilo, tamaño, material y precio. Con un diseño atractivo y funcional, el sitio permite realizar compras de manera ágil y recibir recomendaciones personalizadas, garantizando una experiencia única para amueblar cualquier espacio con calidad y estilo.
 
 # Requerimientos
 

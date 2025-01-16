@@ -1,11 +1,285 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Hola </h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>mäbello</title>
+  </head>
+  <body>
+    <!--HEADER-->
+    <header>
+        <!--Barra de navegacion-->
+      <section>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary m fixed-top">
+          <div class="container-fluid mt-2 mb-2">
+            <img
+              src="img/logo galeria.png"
+              alt="Logo"
+              width="55"
+              height="54"
+              class="d-inline-block align-text-top ms-5"
+            />
+            <a class="navbar-brand ms-4 fs-2" href="#">mäbello</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarScroll"
+              aria-controls="navbarScroll"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+              <ul
+                class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                style="--bs-scroll-height: 100px"
+              >
+                <li class="nav-item">
+                  <a class="nav-link active ms-5" aria-current="page" href="#"
+                    >Inicio</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ms-5" href="#">Tendecias</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle ms-5"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Productos
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Sofás</a></li>
+                    <li><a class="dropdown-item" href="#">Sillas</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Modulares</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ms-5" href="#">Colecciones</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ms-5" href="#">Sobre nosotros</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Buscar
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </section>
+    </header>
+
+    <main>
+        <!--Portada-->
+      <section>
+        <!--img-->
+        <img src="img/portada.png" class="img-fluid z-n1" alt="imagendehogar" />
+
+        <!--titulo-->
+        <h1 class="display-1 text-center fw-bold">mäbello</h1>
+
+        <!--subtitulo-->
+        <p class="h3 fw-normal">
+          Muebles perfectos para <br />
+          cada rincón de tu hogar
+        </p>
+
+        <!--button-->
+        <div class="boton-descubrir">
+          <button type="button" class="btn btn-secondary btn-lg">
+            Descubrir
+          </button>
+        </div>
+      </section>
+
+      <section >
+        <!--titulo-->
+        <div class="sobrenosotros">
+            <h1 class="text-center fw-bold">¡Bienvenido a nuestra tienda!</h1>
+        </div>
+        <!--subtituulo-->
+        <div class="subsobrenosotros">
+        <p class="h5 fw-normal">
+          Nuestro compromiso con el planeta
+        </p>
+        </div>
+        <!--cuadros-->
+        <div class="cuadrossobrenosotros">
+        <div class="row justify-content-center">
+        <div class="col-sm-3 mb-3 mb-sm-0">
+        <div class="card">
+        <div class="card-body">
+        <h5 class="card-title">Historia</h5>
+        <p class="card-text justify-content-center">Desde 2000 diseñamos, producimos y comercializamos productos que crean hogares.</p>
+        <a href="#" class="btn btn-primary ">Conocer más</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-3">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title ">Garantía</h5>
+        <p class="card-text ">Nos hemos destacado por una calidad superior de diseño de interiores gracias a nuestros expertos.</p>
+        <a href="#" class="btn btn-primary">Conocer más</a>
+      </div>
+    </div>
+  </div>
+        <div class="col-sm-3">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Garantía</h5>
+        <p class="card-text">Nos hemos destacado por una calidad superior de diseño de interiores gracias a nuestros expertos.</p>
+        <a href="#" class="btn btn-primary">Conocer más</a>
+      </div>
+    </div>
+  </div>
+        </div>
+      </section>
+        <!--Tendencias-->
+      <section class="tendecias">
+        <div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/Tendencias1.jpg" class="d-block w-100" alt="mueblesmodernos">
+      <div class="carousel-caption  d-md-block">
+        <h5>Minimalismo Escandinavo</h5>
+        <p>Transforma tu hogar con muebles modernos y funcionales. ¡El minimalismo nunca pasa de moda!</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/tendecias2.jpg" class="d-block w-100" alt="mueblesmodernos">
+      <div class="carousel-caption  d-md-block">
+        <h5>Muebles Sostenibles</h5>
+        <p>La sostenibilidad llega al diseño. Muebles eco-amigables para un hogar más verde.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/tendecia3.jpg" class="d-block w-100" alt="mueblesmodernos">
+      <div class="carousel-caption  d-md-block">
+        <h5>Estilo Japandi</h5>
+        <p>Colores cálidos y texturas naturales: la tendencia en muebles que trae confort y estilo.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+      </section>
+      <!-- productos -->
+      <section class="producto">
+        <div class="container">
+  <div class="row justify-content-center">
+    <!-- Primera tarjeta -->
+    <div class="col-sm-4 mb-3">
+      <div class="card" style="width: 18rem;">
+        <img src="img/silla1.jpg" class="card-img-top" alt="silla">
+        <div class="card-body">
+          <h5 class="card-title">Card title 1</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Segunda tarjeta -->
+    <div class="col-sm-4 mb-3 ">
+      <div class="card" style="width: 18rem;">
+        <img src="img/silla2.jpg" class="card-img-top" alt="silla">
+        <div class="card-body">
+          <h5 class="card-title">Card title 2</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tercera tarjeta -->
+    <div class="col-sm-4 mb-3">
+      <div class="card" style="width: 18rem;">
+        <img src="img/silla3.jpg" class="card-img-top" alt="silla">
+        <div class="card-body">
+          <h5 class="card-title">Card title 3</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </section>
+        <!--Colecciones-->
+      <section class="colecciones">
+        <div class="card mb-3">
+  <img src="img/Coleccion1.jpg" class="card-img-top" alt="muebles">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+  </div>
+</div>
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+  </div>
+  <img src="img/coleccion2.jpg" class="card-img-bottom" alt="muebles">
+</div>
+      </section>
+    </main>
+
+    <!--FOOTER-->
+    <footer>
+    <div class="foter">
+    <p class="por">
+    &copy;Hecho por Valentina Restan<br />
+    Estudiante de Desarrollo Web
+    </p>
+        
+      </div>
+
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
