@@ -16,14 +16,14 @@ html {
 .h3 {
   color: #f4f0e7;
   line-height: 35px;
-  margin-left: 770px;
+  margin-left: 800px;
 }
 
 .boton-descubrir {
   background-color: #282828;
   color: #f4f0e7;
   margin-left: 500px;
-  margin-top: -60px;
+  margin-top: -70px;
 }
 
 .sobrenosotros {
@@ -38,15 +38,36 @@ html {
 .cuadrossobrenosotros {
   margin-top: 70px;
 }
-
+.cuadro-uno {
+  height: 700px;
+  width: 400px;
+}
+.cuadro-dos {
+  width: 400px;
+}
+.cuadro-tres {
+  width: 400px;
+}
 .tendecias {
-  margin-top: 150px;
+  margin-top: -290px;
 }
 
 .producto {
   margin-top: 150px;
+  margin-left: 0px;
   display: flex;
   justify-content: center;
+}
+
+.container .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container .col {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 .colecciones {
@@ -70,11 +91,159 @@ html {
 .productostitulo {
   margin-top: 150px;
 }
+.carduno {
+  margin-left: -10px;
+}
+.carddos {
+  margin-top: -499px;
+  margin-left: 370px;
+}
+.cardtres {
+  margin-top: -497px;
+  margin-left: -350px;
+}
 
 .subproducto {
   text-align: center;
 }
+
 .botonproductos {
   margin-left: 700px;
   margin-top: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+  .titulo-portada {
+    margin-top: 140px;
+  }
+
+  .subtitulo-portada {
+    margin-left: -300px;
+  }
+
+  .boton-descubrir {
+    margin-left: 250px;
+  }
+
+  .sobrenosotros {
+    margin-top: 300px;
+  }
+
+  .cuadro-uno {
+    margin-left: 0px;
+  }
+
+  .cuadro-dos {
+    margin-left: 0px;
+  }
+
+  .cuadro-tres {
+    margin-top: -400px;
+    margin-left: 0px;
+  }
+  .tendecias {
+    margin-top: 0px;
+  }
+  .producto {
+    margin-left: 0px;
+  }
+  .carduno {
+    margin-left: -20px;
+  }
+  .carddos {
+    margin-left: 320px;
+    margin-top: -509px;
+  }
+  .cardtres {
+    margin-left: 615px;
+    margin-top: -507px;
+  }
+  .container .col {
+    flex: 0 0 10%;
+    max-width: 30%;
+  }
+  .botonproductos {
+    margin-left: 0px;
+  }
+  .boton-cuadrouno {
+    padding-top: 17px;
+  }
+
+  .boton-cuadrotres {
+    padding-top: 28px;
+  }
+
+  .botonproductos {
+    margin-left: 500px;
+  }
+}
+
+@media (max-width: 768px) {
+  .titulo-portada {
+    font-size: 10px;
+  }
+
+  .subtitulo-portada {
+    margin-left: -550px;
+  }
+
+  .boton-descubrir {
+    margin-left: 330px;
+    margin-top: 40px;
+  }
+
+  .botonproductos {
+    margin-left: 350px;
+  }
+
+  .container .col {
+    flex: 0 0 80%;
+    max-width: 30%;
+  }
+
+  .sobrenosotros {
+    margin-top: 120px;
+  }
+  .cuadrossobrenosotros {
+    width: 100%;
+    height: 100%;
+  }
+  .cuadro-uno {
+    width: 400px;
+  }
+  .cuadro-dos {
+    width: 400px;
+    margin-top: -400px;
+  }
+  .cuadro-tres {
+    width: 400px;
+    margin-top: -100px;
+  }
+
+  .tendecias {
+    margin-top: 100px;
+  }
+  .carddos {
+    margin-top: 50px;
+    margin-left: 0px;
+  }
+  .cardtres {
+    margin-top: 50px;
+    margin-left: 0px;
+  }
+
+  .container .col {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .carduno {
+    margin-left: -23px;
+  }
+
+  .botonproductos {
+    margin-left: 00px;
+  }
+}
+
+@media (max-width: 365px) {
 }

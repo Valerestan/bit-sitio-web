@@ -82,16 +82,25 @@
         <!--Portada-->
       <section>
         <!--img-->
-        <img src="img/portada.png" class="img-fluid z-n1" alt="imagendehogar" />
+        <div class="img-portada">
+          <img src="img/portada.png" class="img-fluid z-n1" alt="imagendehogar" />
+        </div>
+        
 
         <!--titulo-->
-        <h1 class="display-1 text-center fw-bold">mäbello</h1>
+        <div class="titulo-portada">
+          <h1 class="display-1 text-center fw-bold">mäbello</h1>
+        </div>
+        
 
         <!--subtitulo-->
-        <p class="h3 fw-normal">
+        <div class="subtitulo-portada">
+          <p class="h3 fw-normal">
           Muebles perfectos para <br />
           cada rincón de tu hogar
         </p>
+        </div>
+        
 
         <!--button-->
         <div class="boton-descubrir">
@@ -114,35 +123,44 @@
         </div>
         <!--cuadros-->
         <div class="cuadrossobrenosotros">
-        <div class="row d-felx justify-content-evenly">
-        <div class="col-sm-3">
-        <div class="card">
+  <div class="row d-flex justify-content-evenly">
+    <!-- Primer cuadro -->
+     <div class="cuadro-uno"><div class="col">
+      <div class="card">
         <div class="card-body p-5">
-        <h5 class="card-title">Historia</h5>
-        <p class="card-text mt-3">Desde 2000 diseñamos, producimos y comercializamos productos que crean hogares.</p>
-        <a href="sobrenosotros.html" target="_blank" class="btn btn-secondary mt-4">Conocer más</a>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-3">
-    <div class="card">
-      <div class="card-body p-5">
-        <h5 class="card-title ">Garantía</h5>
-        <p class="card-text mt-3">Nos hemos destacado por una calidad superior de diseño de interiores gracias a nuestros expertos.</p>
-        <a href="sobrenosotros.html" target="_blank" class="btn btn-secondary">Conocer más</a>
-      </div>
-    </div>
-  </div>
-        <div class="col-sm-3">
-    <div class="card">
-      <div class="card-body p-5">
-        <h5 class="card-title">sostenibilidad</h5>
-        <p class="card-text mt-3">Nos hemos destacado por una calidad superior de diseño de interiores gracias a nuestros expertos.</p>
-        <a href="sobrenosotros.html" target="_blank" class="btn btn-secondary">Conocer más</a>
-      </div>
-    </div>
-  </div>
+          <h5 class="card-title">Historia</h5>
+          <div></div>
+          <p class="card-text mt-3">Desde 2000 diseñamos, producimos y comercializamos productos que crean hogares.</p>
+          <a href="sobrenosotros.html" target="_blank" class="btn btn-secondary">Conocer más</a>
         </div>
+      </div>
+    </div></div>
+    
+    <!-- Segundo cuadro -->
+     <div class="cuadro-dos"><div class="col">
+      <div class="card">
+        <div class="card-body p-5">
+          <h5 class="card-title">Garantía</h5>
+          <p class="card-text mt-3">Nos hemos destacado por una calidad superior de diseño de interiores gracias a nuestros expertos.</p>
+          <a href="sobrenosotros.html" target="_blank" class="btn btn-secondary">Conocer más</a>
+        </div>
+      </div>
+    </div></div>
+    
+    <!-- Tercer cuadro -->
+     <div class="cuadro-tres"><div class="col">
+      <div class="card">
+        <div class="card-body p-5">
+          <h5 class="card-title">Sostenibilidad</h5>
+          <p class="card-text mt-3">Nos hemos destacado por una calidad superior de diseño de interiores gracias a nuestros expertos.</p>
+          <a href="sobrenosotros.html" target="_blank" class="btn btn-secondary">Conocer más</a>
+        </div>
+      </div>
+    </div></div>
+    
+  </div>
+</div>
+
       </section>
         <!--Tendencias-->
       <section id="tendencias"class="tendecias">
@@ -199,19 +217,25 @@
         <div class="container ">
   <div class="row d-flex">
     <!-- Primera tarjeta -->
-    <div class="col ms-5">
+     <div class="carduno">
+      <div class="col ms-5">
       <div class="card" style="width: 18rem;">
         <img src="img/silla1.jpg" class="card-img-top" alt="silla">
         <div class="card-body">
           <h5 class="card-title">ModuSeat</h5>
           <p class="card-text">Comodidad y estilo, diseño modular permite personalizar tu espacio con facilidad.</p>
+          <div class="boton-cuadrouno">
           <a href="producto.html" class="btn btn-secondary">Comprar</a>
           <a href="#" class="btn btn-secondary-emphasis">$1.899.999 cop</a>
+          </div>
+          
         </div>
       </div>
     </div>
+     </div>
+    
     <!-- Segunda tarjeta -->
-    <div class="col">
+     <div class="carddos"><div class="col">
       <div class="card" style="width: 18rem;">
         <img src="img/silla2.jpg" class="card-img-top" alt="silla">
         <div class="card-body">
@@ -221,20 +245,27 @@
           <a href="#" class="btn btn-secondary-emphasis">$2.469.999 cop</a>
         </div>
       </div>
-    </div>
+    </div></div>
+    
     <!-- Tercera tarjeta -->
-    <div class="col">
+     <div class="cardtres">
+      <div class="col">
       <div class="card" style="width: 18rem;">
         <img src="img/silla3.jpg" class="card-img-top" alt="silla">
         <div class="card-body">
           <h5 class="card-title">Breeze Modular</h5>
           <p class="card-text">Confort y diseño en su máxima expresión, hecha con madera reciclada para un descanso.</p>
-          <a href="producto.html" class="btn btn-secondary">Comprar</a>
+          <div class="boton-cuadrotres">
+            <a href="producto.html" class="btn btn-secondary">Comprar</a>
           <a href="#" class="btn btn-secondary-emphasis">$1.515.999 cop</a>
+          </div>
+          
         </div>
       </div>
     </div>
   </div>
+     </div>
+    
 </div>
       </section>
       <div class="botonproductos">
@@ -254,21 +285,21 @@
       <img src="img/coleccion1.jpg" class="d-block w-100" alt="muebles">
       <div class="carousel-caption d-md-block text-white">
         <h5>Colección Natural</h5>
-        <p>Con materiales orgánicos y diseños atemporales, nuestra colección Natural redefine <br> el concepto de hogar. Muebles que combinan estilo, funcionalidad y respeto por el medio ambiente.</p>
+        <p>Con materiales orgánicos y diseños atemporales, nuestra colección Natural redefine el concepto de hogar. Muebles que combinan estilo, funcionalidad y respeto por el medio ambiente.</p>
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="2000">
       <img src="img/coleccion3.jpg" class="d-block w-100" alt="muebles">
       <div class="carousel-caption d-md-block text-white">
         <h5>Colección Verde</h5>
-        <p>Estilo y sostenibilidad se encuentran en cada pieza. Descubre muebles hechos con <br>materiales ecoamigables que aportan confort y elegancia a tu hogar.</p>
+        <p>Estilo y sostenibilidad se encuentran en cada pieza. Descubre muebles hechos con materiales ecoamigables que aportan confort y elegancia a tu hogar.</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="img/coleccion2.jpg" class="d-block w-100" alt="muebles">
       <div class="carousel-caption d-md-block text-white">
         <h5>Colección EcoStyle</h5>
-        <p>Transforma tu espacio con muebles que no solo embellecen tu hogar, sino que también <br>cuidan el planeta. EcoStyle es la perfecta combinación de diseño consciente y materiales sostenibles.</p>
+        <p>Transforma tu espacio con muebles que no solo embellecen tu hogar, sino que también cuidan el planeta. EcoStyle es la perfecta combinación de diseño consciente y materiales sostenibles.</p>
       </div>
     </div>
   </div>
