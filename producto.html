@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/productos.css">
+    <link rel="stylesheet" href="css/productos.css" />
     <title>mäbello/Producto</title>
-</head>
-<body>
+  </head>
+  <body>
     <!--HEADER-->
     <header>
-        <!--Barra de navegacion-->
+      <!--Barra de navegacion-->
       <section>
         <nav class="navbar navbar-expand-lg bg-body-tertiary m fixed-top">
           <div class="container-fluid mt-2 mb-2">
@@ -44,7 +44,10 @@
                 style="--bs-scroll-height: 100px"
               >
                 <li class="nav-item">
-                  <a class="nav-link active ms-5" aria-current="page" href="index.html"
+                  <a
+                    class="nav-link active ms-5"
+                    aria-current="page"
+                    href="index.html"
                     >Inicio</a
                   >
                 </li>
@@ -52,13 +55,20 @@
                   <a class="nav-link ms-5" href="index.html">Tendecias</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link ms-5" href="Producto.html" target="_blank">Productos</a>
+                  <a class="nav-link ms-5" href="Producto.html" target="_blank"
+                    >Productos</a
+                  >
                 </li>
                 <li class="nav-item">
                   <a class="nav-link ms-5" href="index.html">Colecciones</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link ms-5" href="sobrenosotros.html" target="_blank" >Sobre nosotros</a>
+                  <a
+                    class="nav-link ms-5"
+                    href="sobrenosotros.html"
+                    target="_blank"
+                    >Sobre nosotros</a
+                  >
                 </li>
               </ul>
               <form class="d-flex" role="search">
@@ -78,99 +88,127 @@
       </section>
     </header>
     <main>
-        <section class="producto">
-        <div class="container ">
-  <div class="row d-flex">
-    <!-- Primera tarjeta -->
-    <div class="col ms-5">
-      <div class="card" style="width: 18rem;">
-        <img src="img/silla3.jpg" class="card-img-top" alt="silla">
-        <div class="card-body">
-          <h5 class="card-title">ModuSeat</h5>
-          <p class="card-text">Comodidad y estilo, diseño modular permite personalizar tu espacio con facilidad.</p>
-          <a href="#" class="btn btn-secondary mt-1">Comprar</a>
-          <a href="#" class="btn btn-secondary-emphasis">$1.899.999 cop</a>
+    <!-- Sección de productos -->
+<section class="producto">
+  <div class="container-fluid">
+    <div class="row d-flex justify-content-center">
+      <!-- Primera tarjeta -->
+       <div class="tarjeta-uno">
+        <div class="col-12 col-md-4 mb-4">
+        <div class="card" style="width: 18rem">
+          <img src="img/silla3.jpg" class="card-img-top" alt="silla" />
+          <div class="card-body">
+            <h5 class="card-title">ModuSeat</h5>
+            <p class="card-text">
+              Comodidad y estilo, diseño modular permite personalizar tu espacio con facilidad.
+            </p>
+            <a href="#" class="btn btn-secondary mt-1">Comprar</a>
+            <a href="#" class="btn btn-secondary-emphasis">$1.899.999 cop</a>
+          </div>
+        </div>
+      </div></div>
+      
+
+      <!-- Segunda tarjeta -->
+       <div class="tarjeta-dos">
+        <div class="col-12 col-md-4 mb-4">
+        <div class="card" style="width: 18rem">
+          <img src="img/silla2.jpg" class="card-img-top" alt="silla" />
+          <div class="card-body">
+            <h5 class="card-title">EcoForm</h5>
+            <p class="card-text">
+              Diseñada para tu comodidad, con ajuste lumbar y materiales sostenibles, perfecta para la oficina.
+            </p>
+            <a href="#" class="btn btn-secondary">Comprar</a>
+            <a href="#" class="btn btn-secondary-emphasis">$2.469.999 cop</a>
+          </div>
         </div>
       </div>
-    </div>
-    <!-- Segunda tarjeta -->
-    <div class="col">
-      <div class="card" style="width: 18rem;">
-        <img src="img/silla2.jpg" class="card-img-top" alt="silla">
-        <div class="card-body">
-          <h5 class="card-title">EcoForm</h5>
-          <p class="card-text">Diseñada para tu comodidad, con ajuste lumbar y materiales sostenibles, perfecta para la oficina.</p>
-          <a href="#" class="btn btn-secondary">Comprar</a>
-          <a href="#" class="btn btn-secondary-emphasis">$2.469.999 cop</a>
+       </div>
+      
+
+      <!-- Tercera tarjeta -->
+       <div class="tarjeta-tres">
+<div class="col-12 col-md-4 mb-4">
+        <div class="card" style="width: 18rem">
+          <img src="img/silla3.jpg" class="card-img-top" alt="silla" />
+          <div class="card-body">
+            <h5 class="card-title">Breeze Modular</h5>
+            <p class="card-text">
+              Confort y diseño en su máxima expresión, hecha con madera reciclada para un descanso.
+            </p>
+            <a href="#" class="btn btn-secondary">Comprar</a>
+            <a href="#" class="btn btn-secondary-emphasis">$1.515.999 cop</a>
+          </div>
         </div>
       </div>
-    </div>
-    <!-- Tercera tarjeta -->
-    <div class="col">
-      <div class="card" style="width: 18rem;">
-        <img src="img/silla3.jpg" class="card-img-top" alt="silla">
-        <div class="card-body">
-          <h5 class="card-title">Breeze Modular</h5>
-          <p class="card-text">Confort y diseño en su máxima expresión, hecha con madera reciclada para un descanso.</p>
-          <a href="#" class="btn btn-secondary">Comprar</a>
-          <a href="#" class="btn btn-secondary-emphasis">$1.515.999 cop</a>
+
+       </div>
+      
+      <!-- Cuarta tarjeta -->
+       <div class="tarjeta-cuatro">
+<div class="col-12 col-md-4 mb-4">
+        <div class="card" style="width: 18rem">
+          <img src="img/silla3.jpg" class="card-img-top" alt="silla" />
+          <div class="card-body">
+            <h5 class="card-title">ModuSeat</h5>
+            <p class="card-text">
+              Comodidad y estilo, diseño modular permite personalizar tu espacio con facilidad.
+            </p>
+            <a href="#" class="btn btn-secondary mt-1">Comprar</a>
+            <a href="#" class="btn btn-secondary-emphasis">$1.899.999 cop</a>
+          </div>
         </div>
       </div>
+       </div>
+      
+
+      <!-- Quinta tarjeta -->
+       <div class="tarjeta-cinco"><div class="col-12 col-md-4 mb-4">
+        <div class="card" style="width: 18rem">
+          <img src="img/silla2.jpg" class="card-img-top" alt="silla" />
+          <div class="card-body">
+            <h5 class="card-title">EcoForm</h5>
+            <p class="card-text">
+              Diseñada para tu comodidad, con ajuste lumbar y materiales sostenibles, perfecta para la oficina.
+            </p>
+            <a href="#" class="btn btn-secondary">Comprar</a>
+            <a href="#" class="btn btn-secondary-emphasis">$2.469.999 cop</a>
+          </div>
+        </div>
+      </div></div>
+      
+
+      <!-- Sexta tarjeta -->
+       <div class="tarjeta-seis">
+<div class="col-12 col-md-4 mb-4">
+        <div class="card" style="width: 18rem">
+          <img src="img/silla3.jpg" class="card-img-top" alt="silla" />
+          <div class="card-body">
+            <h5 class="card-title">Breeze Modular</h5>
+            <p class="card-text">
+              Confort y diseño en su máxima expresión, hecha con madera reciclada para un descanso.
+            </p>
+            <a href="#" class="btn btn-secondary">Comprar</a>
+            <a href="#" class="btn btn-secondary-emphasis">$1.515.999 cop</a>
+          </div>
+        </div>
+      </div>
+       </div>
+      
     </div>
   </div>
-</div>
-      </section>
-      <section class="productodos">
-        <div class="container ">
-  <div class="row d-flex">
-    <!-- Primera tarjeta -->
-    <div class="col ms-5">
-      <div class="card" style="width: 18rem;">
-        <img src="img/silla3.jpg" class="card-img-top" alt="silla">
-        <div class="card-body">
-          <h5 class="card-title">ModuSeat</h5>
-          <p class="card-text">Comodidad y estilo, diseño modular permite personalizar tu espacio con facilidad.</p>
-          <a href="#" class="btn btn-secondary mt-1">Comprar</a>
-          <a href="#" class="btn btn-secondary-emphasis">$1.899.999 cop</a>
-        </div>
-      </div>
-    </div>
-    <!-- Segunda tarjeta -->
-    <div class="col">
-      <div class="card" style="width: 18rem;">
-        <img src="img/silla2.jpg" class="card-img-top" alt="silla">
-        <div class="card-body">
-          <h5 class="card-title">EcoForm</h5>
-          <p class="card-text">Diseñada para tu comodidad, con ajuste lumbar y materiales sostenibles, perfecta para la oficina.</p>
-          <a href="#" class="btn btn-secondary">Comprar</a>
-          <a href="#" class="btn btn-secondary-emphasis">$2.469.999 cop</a>
-        </div>
-      </div>
-    </div>
-    <!-- Tercera tarjeta -->
-    <div class="col">
-      <div class="card" style="width: 18rem;">
-        <img src="img/silla3.jpg" class="card-img-top" alt="silla">
-        <div class="card-body">
-          <h5 class="card-title">Breeze Modular</h5>
-          <p class="card-text">Confort y diseño en su máxima expresión, hecha con madera reciclada para un descanso.</p>
-          <a href="#" class="btn btn-secondary">Comprar</a>
-          <a href="#" class="btn btn-secondary-emphasis">$1.515.999 cop</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-      </section>
+</section>
     </main>
+
     <!--FOOTER-->
     <footer class="bg-white text-center mt-3">
-        <p class="texto-footer">© Hecho por Valentina Restan.</p>
+      <p class="texto-footer">© Hecho por Valentina Restan.</p>
     </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-</body>
+  </body>
 </html>
