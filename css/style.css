@@ -144,8 +144,12 @@ html {
   .tendecias {
     margin-top: 0px;
   }
+  .productostitulo {
+    margin-top: 100px;
+  }
   .producto {
     margin-left: 0px;
+    margin-top: 50px;
   }
   .carduno {
     margin-left: -20px;
@@ -162,9 +166,7 @@ html {
     flex: 0 0 10%;
     max-width: 30%;
   }
-  .botonproductos {
-    margin-left: 0px;
-  }
+
   .boton-cuadrouno {
     padding-top: 17px;
   }
@@ -174,13 +176,19 @@ html {
   }
 
   .botonproductos {
-    margin-left: 500px;
+    margin-left: 440px;
+    margin-top: 20px;
+  }
+
+  .carousel-item {
+    margin-top: 0px;
   }
 }
 
 @media (max-width: 768px) {
-  .titulo-portada {
-    font-size: 10px;
+  .display-1 {
+    font-size: 100px;
+    margin-top: -480px;
   }
 
   .subtitulo-portada {
@@ -190,10 +198,6 @@ html {
   .boton-descubrir {
     margin-left: 330px;
     margin-top: 40px;
-  }
-
-  .botonproductos {
-    margin-left: 350px;
   }
 
   .container .col {
@@ -223,6 +227,12 @@ html {
   .tendecias {
     margin-top: 100px;
   }
+  .h1 {
+    font-size: 30px;
+  }
+  .carduno {
+    margin-left: -23px;
+  }
   .carddos {
     margin-top: 50px;
     margin-left: 0px;
@@ -231,19 +241,42 @@ html {
     margin-top: 50px;
     margin-left: 0px;
   }
-
   .container .col {
     flex: 0 0 100%;
     max-width: 100%;
   }
-  .carduno {
-    margin-left: -23px;
-  }
 
   .botonproductos {
-    margin-left: 00px;
+    margin-left: 300px;
   }
 }
 
-@media (max-width: 365px) {
+@media (max-width: 375px) {
+  .img-portada img {
+    width: 365px;
+    height: 365px;
+    object-fit: cover;
+  }
+
+  .titulo-portada h1 {
+    font-size: 3rem;
+    margin-top: -380px;
+  }
+
+  .subtitulo-portada p {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-left: 550px;
+    line-height: 22px;
+  }
+
+  .boton-descubrir button {
+    font-size: 1rem;
+    margin-top: 0px;
+    margin-left: -210px;
+  }
+  .botonproductos {
+    font-size: 1rem;
+    margin-left: 110px;
+  }
 }

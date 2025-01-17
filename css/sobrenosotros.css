@@ -20,7 +20,9 @@ html {
 }
 
 .parrafosobrenosotros {
-  margin-left: 300px;
+  margin-left: 280px;
+  width: 1000px;
+  margin-top: 80px;
 }
 
 .cuadrouno {
@@ -37,6 +39,45 @@ html {
 .cuadrotres {
   width: 800px;
   height: 200px;
-  border-color: brown;
   margin-left: 370px;
+}
+
+@media screen and (max-width: 1024px) {
+  .logosobrenosotros {
+    margin-left: 380px;
+  }
+  .titulosobrenosotros {
+    margin-left: 379px;
+  }
+  .parrafosobrenosotros {
+    margin-left: 80px;
+    margin-top: 80px;
+    width: 900px;
+  }
+  .cuadrouno,
+  .cuadrodos,
+  .cuadrotres {
+    width: 700px;
+    margin-left: 150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logosobrenosotros {
+    margin-left: 250px;
+  }
+  .titulosobrenosotros {
+    margin-left: 260px;
+  }
+  .parrafosobrenosotros {
+    width: 600px;
+    text-align: justify;
+  }
+  .cuadrouno,
+  .cuadrodos,
+  .cuadrotres {
+    width: 550px;
+    margin-left: 110px;
+    margin-top: 80px;
+  }
 }
